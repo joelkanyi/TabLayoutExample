@@ -22,6 +22,7 @@
             app:tabTextAppearance="@style/CustomeTabLayout"
             app:tabInlineLabel="true"
             app:tabTextColor="@color/white"
+            app:tabSelectedTextColor="@color/material_on_primary_disabled"
             app:tabMode="fixed"/>
     </com.google.android.material.appbar.AppBarLayout>
 

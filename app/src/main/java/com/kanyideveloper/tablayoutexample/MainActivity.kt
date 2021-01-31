@@ -33,8 +33,11 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
 
-        tabs.getTabAt(0)!!.setIcon(R.drawable.ic_baseline_home_24)
+
+        //If you need to add icons to your tabs
+
+        /*tabs.getTabAt(0)!!.setIcon(R.drawable.ic_baseline_home_24)
         tabs.getTabAt(1)!!.setIcon(R.drawable.ic_baseline_favorite_24)
-        tabs.getTabAt(2)!!.setIcon(R.drawable.ic_baseline_settings_24)
+        tabs.getTabAt(2)!!.setIcon(R.drawable.ic_baseline_settings_24)*/
     }
 }
